@@ -11,11 +11,6 @@ The following kernel APIs are to be used Workqueue/Timer, List, Mutex/Semaphore.
 3. Using the kernel API:
     1. the text data from the internal memory shall be written regularly, 1 word per second, to the kernel log.
 
-The result should be provided as a git repo with source file and kernel log.
-You are free to choose the Linux kernel release (4.9.x, 5.4.x, 5.18.x, etc) and the target environment (standard Linux desktop, emulated or embedded system).
-
-If it is your first kernel module, LDD3 is a good place to start.
-
 ## Download
 You can download the project zip and unzip it or you can clone the project as shown below
 ```bash
